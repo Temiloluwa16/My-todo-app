@@ -27,14 +27,19 @@ body {
        1fr minmax(100px, 300px) minmax(250px, 500px) 1fr;
 }
 
-.title{
+.title {
     grid-area: header;
+    text-align: center;
+    font-size: calc(7vw + 2rem);
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
 }
 
 .all-tasks {
-
+  grid-area: lists;
 }
 
 .todo-list {
-    
+  grid-area: active;
 }
